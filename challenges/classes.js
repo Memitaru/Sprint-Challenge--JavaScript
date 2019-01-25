@@ -7,11 +7,11 @@ class CuboidMaker{
         this.height = attributes.height;
     }
 
-    volume(){
+    volume = () => {
         return this.length * this.width * this.height;
     }
 
-    surfaceArea(){
+    surfaceArea = () => {
         return 2 * (this.length * this.width + this.length * this.height + this.width * this.height);
     }
 
@@ -22,11 +22,11 @@ class CubeMaker extends CuboidMaker{
         super(attributes);
     }
 
-    volume(){
+    volume = () => {
         return this.length * this.length * this.length;
     }
 
-    surfaceArea(){
+    surfaceArea = () => {
         return 6 * (this.length * this.length);
     }
 
