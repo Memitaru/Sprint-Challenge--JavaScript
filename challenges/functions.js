@@ -35,7 +35,7 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 // Explanation: 
 
-// Nested functions can access variables from the outer functions they are nested in. 
+// In JavaScript a nested function will have access to it's own scope, the outer function's variables, and global variables. When you call the function and it can't find what it needs it goes tothe outer function to look for context.
 
 
 const external = "I'm outside the function";

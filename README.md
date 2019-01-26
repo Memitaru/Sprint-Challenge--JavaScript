@@ -54,6 +54,8 @@ New binding - When using a constructor function to create a new object 'this' wi
 
 5. Why do we need super() in an extended class?
 
+Without super() you won't be able to access methods from the parent class.
+
 ## Project Set up
 
 Follow these steps to set up and work on your project:
@@ -94,7 +96,7 @@ Create constructors, bind methods, and create cuboids in this prototypes challen
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
