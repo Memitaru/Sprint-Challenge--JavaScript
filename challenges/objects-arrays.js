@@ -13,7 +13,7 @@ const tyrannosaurus = {
   diet: 'carnivorous',
   weight: '7000kg',
   length: '12m',
-  period: 'Late Cretaceios',
+  period: 'Late Cretaceious',
   speak: function(){
     return 'RAWERSRARARWERSARARARRRR!';
   }
@@ -145,7 +145,6 @@ console.log(animalNames);
 /* Request 2: .map()    
 
 The zoos need a list of all their animal's names (names only, not scientific) converted to lower case.  Create a new array named lowerCase and map over each name to convert them all to lower case.  Log the resut.
-
 */
 
 const lowerCase = zooAnimals.map(animal => {
@@ -182,4 +181,5 @@ console.log(populationTotal);
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
+
 
